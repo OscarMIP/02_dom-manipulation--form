@@ -1,0 +1,95 @@
+/* sanitize.css */
+
+/* Resets */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* HTML5 display roles */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/* Grouping content */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.5em;
+    font-weight: normal;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+/* Links */
+a {
+    color: inherit; /* Allows the link to inherit the color of its parent */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Lists */
+ul,
+ol {
+    margin-left: 2em; /* Indent lists */
+    margin-bottom: 1em;
+}
+
+/* Images */
+img {
+    max-width: 100%; /* Responsive images */
+    height: auto;
+    display: block; /* Removes bottom space */
+}
+
+/* Tables */
+table {
+    border-collapse: collapse; /* Collapses table borders */
+    width: 100%; /* Makes table full-width */
+}
+
+th,
+td {
+    padding: 0.5em;
+    text-align: left; /* Aligns text in table cells */
+}
+
+/* Form elements */
+input,
+button,
+textarea {
+    font-family: inherit; /* Ensures consistent font across form elements */
+}
+
+/* Hide the default outline for focused elements */
+:focus {
+    outline: none;
+}
+
+/* Accessibility improvements */
+button {
+    cursor: pointer; /* Changes cursor for button elements */
+}
+
+/* Customizations can be added below this comment */
